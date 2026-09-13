@@ -1,4 +1,4 @@
-package strategy.drive;
+package strategyPattern.drive;
 
 public interface DriveStrategy {
     void drive();

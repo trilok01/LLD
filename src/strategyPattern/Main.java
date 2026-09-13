@@ -1,8 +1,8 @@
-package strategy;
+package strategyPattern;
 
-import strategy.vehicle.PassengerVehicle;
-import strategy.vehicle.SportsVehicle;
-import strategy.vehicle.Vehicle;
+import strategyPattern.vehicle.PassengerVehicle;
+import strategyPattern.vehicle.SportsVehicle;
+import strategyPattern.vehicle.Vehicle;
 
 public class Main {
     public static void main(String[] args) {
