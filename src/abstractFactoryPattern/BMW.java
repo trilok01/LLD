@@ -1,9 +1,8 @@
 package abstractFactoryPattern;
 
-public class BMW implements Car<String, CarConstants.BMWModels> {
+public class BMW implements Car {
     private CarConstants.BMWModels model;
 
-    @Override
     public void setModel(CarConstants.BMWModels model) {
         this.model = model;
     }

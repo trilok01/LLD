@@ -1,5 +1,5 @@
 package abstractFactoryPattern;
 
-public interface CarFactory{
-    public Car getCar(CarConstants.CarBrands brand);
+public interface CarFactory {
+    Car createCar(CarConstants.CarBrands brand);
 }

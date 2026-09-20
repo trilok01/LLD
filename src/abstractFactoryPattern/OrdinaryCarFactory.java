@@ -2,8 +2,8 @@ package abstractFactoryPattern;
 
 public class OrdinaryCarFactory implements CarFactory {
     @Override
-    public Car getCar(CarConstants.CarBrands brand) {
-        return switch(brand) {
+    public Car createCar(CarConstants.CarBrands brand) {
+        return switch (brand) {
             case HYUNDAI -> new Hyundai();
             case TATA -> new Tata();
             default -> {
